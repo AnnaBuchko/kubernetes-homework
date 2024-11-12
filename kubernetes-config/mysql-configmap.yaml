@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+data:
+  mysql_url: jdbc:mysql://mysql-service:3306/example
+  mysql_database: example
